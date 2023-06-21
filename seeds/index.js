@@ -17,7 +17,7 @@ const seedDatabase = async () => {
         console.log('***USERS SEEDED***');
 
         for (const { id } of users) {
-            const userPosts = postsData
+            const userPosts = postData
                 .filter((post) => post.user_id === id)
                 .map((post) => ({ ...post, user_id: id }));
 
@@ -26,7 +26,7 @@ const seedDatabase = async () => {
         console.log('***POST SEEDED***');
 
         for (const { id } of users) {
-            const userComments = commentsData
+            const userComments = commentData
                 .filter((comment) => comment.user_id === id)
                 .map((comment) => ({ ...comment, user_id: id }));
 
