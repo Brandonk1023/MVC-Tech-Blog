@@ -17,4 +17,8 @@ const userData = [
         username: "AcidBurn",
         password: "ilovedade345"
     },
-]
+];
+
+const seedUsersData = () => User.bulkCreate(userData, {individualHooks: true});
+
+module.exports = seedUsersData;
