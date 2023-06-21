@@ -1,12 +1,8 @@
 # MVC-Tech-Blog
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This is a blog style application.  That was designed for users to share ideas and comments.  The purpose of working on this application was to practice building a blog style site and further develop my skills with backend code, and also practice handlebar implementation.
 
 ## Table of Contents
 
@@ -16,8 +12,10 @@ Provide a short description explaining the what, why, and how of your project. U
 - [License](#license)
 
 ## Installation
+To use this application,  you would use the command `npm i` to install the dependencies.  The use the command `node run seed` to seed the database with the provided seed data.  If you are just simply wanting to look at the deployed application you need to do is click on the deployment link below.
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+## Deployment URL
+
 
 ## Usage
 
@@ -31,11 +29,14 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Handlebars Documentation:
+https://handlebarsjs.com/
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Sequelize Documentation:
+https://sequelize.org/
 
-If you followed tutorials, include links to those here as well.
+Heroku Documentatino:
+https://devcenter.heroku.com/articles/deploying-nodejs
 
 ## License
 
