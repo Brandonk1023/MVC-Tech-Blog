@@ -15,7 +15,7 @@ This is a blog style application.  That was designed for users to share ideas an
 To use this application,  you would use the command `npm i` to install the dependencies.  The use the command `node run seed` to seed the database with the provided seed data.  If you are just simply wanting to look at the deployed application you need to do is click on the deployment link below.
 
 ## Deployment URL
-
+https://rocky-depths-75798-2f9dbb782cbd.herokuapp.com/
 
 ## Usage
 
@@ -23,9 +23,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt text](assets/images/screenshot.png)
 
 ## Credits
 
