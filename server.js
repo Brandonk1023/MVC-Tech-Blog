@@ -9,7 +9,7 @@ const app = express()
 const PORT = process.env.PORT || 3001
 
 const sess = {
-    secret: 'secret session key'
+    secret: 'secret session key',
     cookie: {},
     resave: false,
     saveUnitialized: true,
@@ -27,5 +27,5 @@ app.use(routes)
 
 sequelize.sync({ force: false}).then(() => {
     app.listen(PORT, () => console.log('App listening on port 3001'))
-}
+})
 
